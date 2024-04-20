@@ -8,6 +8,7 @@
 ### Languages
 
 ![PHP](https://img.shields.io/badge/-PHP-000?&logo=PHP)
+![Go](https://img.shields.io/badge/-Go-000?&logo=Go)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000?&logo=TypeScript)
@@ -19,6 +20,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 ![Linux](https://img.shields.io/badge/-Linux-000?&logo=Linux)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
+![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon)
 ![GCP](https://img.shields.io/badge/-GCP-000?&logo=Google)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=JavaScript)
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
@@ -33,6 +35,7 @@
 ![Shopify](https://img.shields.io/badge/-Shopify-000?&logo=Shopify)
 ![Wordpress](https://img.shields.io/badge/-Wordpress-000?&logo=Wordpress)
 ![Square](https://img.shields.io/badge/-Square-000?&logo=Square)
+![BigCommerce](https://img.shields.io/badge/-bigcommerce-000?&logo=Bigcommerce)
 
 
 <a href="https://ar.ventures/"><img height="137px" src="https://github-readme-stats.vercel.app/api?username=arventures&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000" /><img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arventures&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=6" /></a>
