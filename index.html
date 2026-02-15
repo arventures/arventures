@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arvinder Rajpal - Software Engineer</title>
+  <meta name="description" content="Software Engineer in Vancouver, BC with 5+ years building scalable e-commerce platforms. Go, React, PHP, distributed systems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="cube.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">AR</a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="mobile-nav">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section class="hero" id="home">
+  <div class="hero-mesh"></div>
+  <div class="hero-photo reveal">
+    <img src="assets/profile.jpg" alt="Arvinder Rajpal" width="160" height="160">
+  </div>
+  <h1 class="reveal">Arvinder Rajpal</h1>
+  <p class="subtitle reveal">Software Engineer</p>
+  <p class="location reveal">📍 Vancouver, BC</p>
+  <a href="#contact" class="hero-cta reveal">Get in Touch →</a>
+  <div class="scroll-arrow">↓</div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-image reveal">
+        <img src="assets/profile.jpg" alt="Arvinder Rajpal" loading="lazy">
+      </div>
+      <div class="about-card reveal">
+        <h2>About Me</h2>
+        <p>Software Engineer at Bold Commerce with 5+ years of experience building scalable e-commerce solutions and subscription platforms.</p>
+        <p>I specialize in Go, PHP, React, and distributed systems. Passionate about creating high-performance applications that drive measurable business impact-from increasing customer retention to reducing operational overhead.</p>
+        <p>Based in Vancouver, BC, I love tackling complex technical challenges and shipping features that make a real difference for users and businesses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <h2 class="section-title reveal">Technical Skills</h2>
+  <div class="section-inner skills-layout">
+
+    <!-- Sticky 3D cube (left column) -->
+    <div class="sticky-visual">
+      <div class="cube" id="skills-cube"></div>
+      <div class="scroll-animation-container"></div>
+    </div>
+
+    <!-- Skill cards (right column) -->
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <span class="skill-icon">⚙️</span>
+        <h3>Backend</h3>
+        <p>Go, PHP, Node.js, REST API, GraphQL, Distributed Systems</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🎨</span>
+        <h3>Frontend</h3>
+        <p>React, JavaScript, TypeScript, HTML5, CSS3, React Router</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🗄️</span>
+        <h3>Databases</h3>
+        <p>MySQL, PostgreSQL, Redis, SQL, Database Design</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">☁️</span>
+        <h3>Cloud &amp; DevOps</h3>
+        <p>AWS (CCP), Docker, Kubernetes, GCP, Terraform, CI/CD</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">📡</span>
+        <h3>Message Queues</h3>
+        <p>RabbitMQ, Google Pub/Sub, Event-Driven Architecture</p>
+      </div>
+      <div class="skill-card reveal">
+        <span class="skill-icon">🔧</span>
+        <h3>Tools &amp; Practices</h3>
+        <p>Git, Nginx, OAuth2, Microservices, Performance Optimization</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <h2 class="section-title reveal">Key Achievements</h2>
+  <div class="section-inner">
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-card">
+          <h3>Software Engineer @ Bold Commerce</h3>
+          <span class="date">May 2023 - Present</span>
+          <ul>
+            <li>Increased customer retention by 2% through personalized subscription pricing</li>
+            <li>Boosted orders by 10% with enhanced Shopify checkout integration</li>
+            <li>Improved system throughput by 12.5% via Redis caching strategy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-card">
+          <h3>Software Developer @ Bold Commerce</h3>
+          <span class="date">October 2021 - April 2023</span>
+          <ul>
+            <li>Reduced DBA effort by 2 hours daily with database orchestration service</li>
+            <li>Cut onboarding time by 86% through Docker containerization</li>
+            <li>Decreased error rate by 12% with automated data validation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <h2 class="section-title reveal">Featured Projects</h2>
+  <div class="section-inner">
+    <div class="project-grid">
+
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="vis-bg" style="background:linear-gradient(135deg,rgba(102,126,234,0.45),rgba(118,75,162,0.4))"></div>
+          💰
+        </div>
+        <div class="project-info">
+          <h3>Personalized Subscription Pricing</h3>
+          <p>Built SQL-driven pricing rules engine with automated expiration checks using pub-sub events. Eliminated stale discounts across backend services.</p>
+          <div class="badges"><span class="badge">📈 +2% Retention</span></div>
+          <p class="tech-stack">Go • Google Pub/Sub • SQL • React • Docker</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="vis-bg" style="background:linear-gradient(135deg,rgba(41,151,255,0.4),rgba(102,126,234,0.35))"></div>
+          🚀
+        </div>
+        <div class="project-info">
+          <h3>Enhanced Checkout Experience</h3>
+          <p>Leveraged Shopify Cart API to add premium shipping options. Reduced checkout latency through time-bounded caching strategy.</p>
+          <div class="badges"><span class="badge">🚀 +10% Orders</span><span class="badge">⚡ +12.5% Throughput</span></div>
+          <p class="tech-stack">React • GraphQL • Redis • Go • REST API</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="vis-bg" style="background:linear-gradient(135deg,rgba(118,75,162,0.45),rgba(234,102,102,0.3))"></div>
+          🗄️
+        </div>
+        <div class="project-info">
+          <h3>Database Orchestration Service</h3>
+          <p>Designed automated bulk database update service with multi-service data validation. Streamlined DBA workflows significantly.</p>
+          <div class="badges"><span class="badge">⏱️ -2hrs Daily</span><span class="badge">✅ -12% Errors</span></div>
+          <p class="tech-stack">PHP Artisan • Kubernetes • MySQL • Go</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="vis-bg" style="background:linear-gradient(135deg,rgba(52,199,89,0.35),rgba(41,151,255,0.3))"></div>
+          🎤
+        </div>
+        <div class="project-info">
+          <h3>Subscriptions Voice Assistant</h3>
+          <p>Developed voice-controlled subscription management using Google Assistant APIs. Enabled hands-free order management.</p>
+          <div class="badges"><span class="badge">🎤 Voice-Enabled UX</span></div>
+          <p class="tech-stack">PHP • Google Assistant • REST APIs • OAuth2</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="vis-bg" style="background:linear-gradient(135deg,rgba(255,159,10,0.35),rgba(234,102,102,0.3))"></div>
+          👥
+        </div>
+        <div class="project-info">
+          <h3>Medical Data Web App (cfms.org)</h3>
+          <p>Contributed to frontend architecture and database design. Built CSV import utility for accurate medical data management.</p>
+          <div class="badges"><span class="badge">👥 500k+ Active Users</span></div>
+          <p class="tech-stack">PHP • React • Firebase</p>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-visual">
+          <div class="vis-bg" style="background:linear-gradient(135deg,rgba(88,86,214,0.4),rgba(102,126,234,0.35))"></div>
+          🐳
+        </div>
+        <div class="project-info">
+          <h3>Docker Development Environment</h3>
+          <p>Containerized local dev environment across three applications. Ensured consistent PHP/Laravel versions and drastically reduced setup time.</p>
+          <div class="badges"><span class="badge">🎯 -86% Onboarding</span></div>
+          <p class="tech-stack">Docker • PHP • MySQL • Nginx • GCP</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="contact-mesh"></div>
+  <div class="contact-inner">
+    <h2 class="reveal">Let's Connect</h2>
+    <p class="reveal">Interested in working together? I'd love to hear from you.</p>
+    <a href="#" class="cta-btn reveal" onclick="openEmail(event)">Get in Touch ✉️</a>
+    <div class="social-row reveal">
+      <a href="https://linkedin.com/in/arvinder-rajpal" target="_blank" class="social-link" aria-label="LinkedIn">in</a>
+      <a href="https://github.com/arventures" target="_blank" class="social-link" aria-label="GitHub">GH</a>
+      <a href="#" onclick="openEmail(event)" class="social-link" aria-label="Email">@</a>
+    </div>
+    <p class="bot-note reveal">✓ Bot-protected email</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; Arvinder Rajpal. Built with care in Vancouver, BC.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
